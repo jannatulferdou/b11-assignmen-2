@@ -312,6 +312,8 @@ margin-left: 18px;
     border-radius: 47.93px;
     margin-top: -200px;
     margin-left: 30px;
+    padding-top: 23px;
+    padding-bottom: 18px;
   }
   .story-2-title{
     font-family: Quicksand;
@@ -362,7 +364,70 @@ padding-bottom: 15px;
     margin-top: 90px;
     margin-bottom: 68px;
     margin-left: 630px;
+
+  }
+
+  /* footer style */
+  .about-section{
+    background-color: rgb(196, 218, 229);
+    color:  rgb(64, 116, 143);
     
+  }
+  .about-container{
+    margin-top: 120px;
+    margin-left: 80px;
+  
+  }
+  .about-logo{
+    font-family: Quicksand;
+font-size: 40px;
+font-weight: 700;
+line-height: 30px;
+width: 206.11px;
+height: 80px;
+margin-top: -1px
+  }
+  .logo-description{
+    font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+width: 399px;
+height: 100px;
+margin-left: 80px;
+margin-top: -10px;
+margin-bottom: 170px;
+  }
+  .schools{
+    margin-top: 120px;
+    margin-left: 172px;
+    
+  }
+  .schools h3{
+    margin-bottom: 32px;
+    font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+  }
+  .schools li{
+list-style: none;
+margin-left: -40px;
+margin-bottom: 20px;
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+  }
+  .touch{
+    margin-top: 120px;
+    font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+    
+  }
+  .icons{
+    margin-top: 32px;
   }
   
 
@@ -372,16 +437,26 @@ padding-bottom: 15px;
     .nav-links, .kid{
         display: none;
     }
-    .navbar,.curriculum-container{
+    .navbar,.curriculum-container, .stories, .story-container,.about-section{
         flex-direction: column;
        
+    }
+    .stories-container{
+      flex-direction: column-reverse;
     }
     .banner{
         flex-direction: column-reverse;
         justify-items: center;
        
         text-align: center;
-        
+    }
+    .navbar{
+     
+      border-bottom: 1px solid rgb(254, 163, 1);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+
     }
     .banner-title{
         font-size: 32px;
@@ -439,8 +514,112 @@ margin-bottom: 20px;
     .kinder{
         margin-bottom: 0px;
     }
+    .stories-title{
+      margin-left: 50px;
+      margin-bottom: px;
+      margin-top: 950px;
+    }
+    .story, .icon{
+      display: none;
+    }
+    .story-container{
+      
+     
+      grid-template-columns: repeat(2, 1fr);
+      
+    width: 357px;
+
+    }
+    .story-2{
+      width: 170px;
+      height: 230px;
+      margin-left: 5px;
+    }
+    .story-2 img{
+      width:170px
+    }
+    .story-2-title{
+      font-family: Quicksand;
+font-size: 9.13px;
+font-weight: 700;
+line-height: 17.12px;
+width: 107.92px;
+
+    }
+    .story-2-btn{
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 9.13px;
+font-weight: 500;
+padding-right: 10px;
+padding-left: 10px;
+width: 103.91px;
+margin-top: -200px;
+text-align: center;
+    }
+    .story-btn{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 9.13px;
+      font-weight: 500;
+      padding-right: 10px;
+      padding-left: 10px;
+      width: 103.91px;
+      margin-top: -50px;
+    }
     
     
-  }
+
+    .view-btn{
+      margin-left: 100px;
+    }
+    .about-container-section{
+      margin-left: -50px;
+    }
+    .logo-description{
+      font-family: Quicksand;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+width: 300px;
+
+    }
+    .schools{
+      margin-top: -130px;
+      margin-left: 30px;
+      font-family: Quicksand;
+
+    }
+    .schools h3{
+      font-size: 20.35px;
+font-weight: 600;
+line-height: 25px;
+width: 129px;
+    }
+    .schools li{
+      font-family: Quicksand;
+font-size: 16.96px;
+font-weight: 500;
+    }
+    .touch{
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+    .touch h3{
+      font-family: Quicksand;
+font-size: 22.04px;
+font-weight: 700;
+line-height: 22.04px;
+    }
+    .icons{
+      margin-bottom: 60px;
+    }
+    
+    
+   
+    }
+    
+    
+  
 
 
