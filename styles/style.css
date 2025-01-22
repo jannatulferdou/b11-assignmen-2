@@ -117,12 +117,16 @@ font-family: Quicksand;
   .banner button{
     margin-left: 80px;
   }
+  .more{
+    display: none;
+  }
 
 
   /* curriculum section */
 
   .curriculum{
     background-image: url(../assets/bg.png);
+  
   }
   .standard-title{
     text-align: center;
@@ -137,6 +141,7 @@ margin-bottom: 80px;
     gap: 26px;
     margin-right: 100px;
   }
+   
   .curriculum-title{
     font-family: Quicksand;
 font-size: 24.52px;
@@ -194,8 +199,9 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 60px;
+margin-bottom: 80px;
   }
-  .elementary{
+.elementary{
     box-sizing: border-box;
 border: 0.94px solid rgb(255, 244, 220);
 border-radius: 18.86px;
@@ -207,7 +213,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 60px;
-  }
+}
   .middle{
     box-sizing: border-box;
 border: 0.94px solid rgb(242, 232, 255);
@@ -220,6 +226,81 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 60px;
+  }
+  @media screen and (max-width:576px) {
+    
+    .nav-links, .kid{
+        display: none;
+    }
+    .navbar,.curriculum-container{
+        flex-direction: column;
+       
+    }
+    .banner{
+        flex-direction: column-reverse;
+        justify-items: center;
+       
+        text-align: center;
+        
+    }
+    .banner-title{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-left: -140px;
+        
+    }
+    .banner-description{
+        font-family: Quicksand;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        width: 350px;
+        
+        margin-left: 10px;
+        
+    }
+    .banner button{
+        margin-left: -5px;
+        margin-top: 18px;
+    }
+    .banner img{
+width: 100%;
+margin-top: 50px;
+    }
+    .logo{
+     position: absolute;
+width: 46px;
+height: 46px;
+left: 16px;
+right: 296px;
+top: 12px;
+
+    }
+    .more{
+        margin-left: 420px;
+     display: inherit;
+    }
+    .curriculum-container{
+        width: 357px;
+height: 324.47px;
+gap: 12px;
+margin-left: -5px;
+
+    }
+    .standard-title{
+        font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 33px;
+margin-top: 80px;
+margin-bottom: 20px;
+    }
+    .kinder{
+        margin-bottom: 0px;
+    }
+    
+    
   }
 
 
